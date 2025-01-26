@@ -1,4 +1,11 @@
 (executable
  (public_name llvm_dug)
  (name main)
- (libraries core llvm_dug llvm llvm.irreader llvm.transform_utils ocamlgraph))
+ (libraries
+  core
+  llvm_dug
+  llvm
+  llvm.irreader
+  llvm.transform_utils
+  ocamlgraph
+  str))
