@@ -1,3 +1,5 @@
+`make` sure that you have `dune` and `make` installed!
+
 ```
 make
 ./llvm-dug test/commuted.ll
